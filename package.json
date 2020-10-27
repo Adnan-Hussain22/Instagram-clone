@@ -1,0 +1,59 @@
+{
+  "name": "instaclone",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix src/**/*.{ts,tsx}",
+    "podinstall": "cd ios && pod install && cd ..",
+    "clean:android": "cd android && ./gradlew clean && cd .."
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@types/jest": "^26.0.15",
+    "@types/react": "^16.9.53",
+    "@types/react-native": "^0.63.30",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-typescript-prettier": "^3.1.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "jest": "^25.1.0",
+    "lint-staged": "^10.5.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "prettier": "^2.1.2",
+    "react-test-renderer": "16.13.1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "yarn lint:fix",
+      "git add"
+    ],
+    "*.{ts,tsx,json,js,html,scss}": [
+      "prettier --write"
+    ]
+  },
+  "jest": {
+    "preset": "react-native",
+    "globals": {
+      "__DEV__": true
+    },
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|svg|ttf)$": "<rootDir>/__mocks__/fileMock.js"
+    },
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!(lodash-es|react-native)/)"
+    ]
+  }
+}
