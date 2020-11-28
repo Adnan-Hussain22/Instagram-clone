@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* boilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* boilerplateTests.m */; };
+		00E356F31AD99517003FC87E /* MeetConnectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MeetConnectsTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		147BB148C4B5F622DA598B01 /* libPods-boilerplate-boilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0820B0706D79A9C1C35F5F02 /* libPods-boilerplate-boilerplateTests.a */; };
+		147BB148C4B5F622DA598B01 /* libPods-MeetConnects-MeetConnectsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0820B0706D79A9C1C35F5F02 /* libPods-MeetConnects-MeetConnectsTests.a */; };
 		18604146252C828700FE4E73 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18604136252C828600FE4E73 /* Zocial.ttf */; };
 		18604147252C828700FE4E73 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18604137252C828700FE4E73 /* FontAwesome5_Brands.ttf */; };
 		18604148252C828700FE4E73 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18604138252C828700FE4E73 /* AntDesign.ttf */; };
@@ -31,11 +31,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* boilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* boilerplateTests.m */; };
-		48CBDB426BD26AE3D1F602EA /* libPods-boilerplate-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D660DE297276E1ACD7EE4F /* libPods-boilerplate-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* MeetConnectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MeetConnectsTests.m */; };
+		48CBDB426BD26AE3D1F602EA /* libPods-MeetConnects-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D660DE297276E1ACD7EE4F /* libPods-MeetConnects-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CE1E2C3DF8AC5DEC58BD36F6 /* libPods-boilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C895071E4316BD3C4E53C467 /* libPods-boilerplate.a */; };
-		D851CB01260AF1FF0890257F /* libPods-boilerplate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9925071F75CC005E32C1DFCC /* libPods-boilerplate-tvOSTests.a */; };
+		CE1E2C3DF8AC5DEC58BD36F6 /* libPods-MeetConnects.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C895071E4316BD3C4E53C467 /* libPods-MeetConnects.a */; };
+		D851CB01260AF1FF0890257F /* libPods-MeetConnects-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9925071F75CC005E32C1DFCC /* libPods-MeetConnects-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,30 +44,30 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = boilerplate;
+			remoteInfo = MeetConnects;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "boilerplate-tvOS";
+			remoteInfo = "MeetConnects-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* boilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MeetConnectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetConnectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* boilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boilerplateTests.m; sourceTree = "<group>"; };
-		0820B0706D79A9C1C35F5F02 /* libPods-boilerplate-boilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate-boilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		137A4D041F93F58A3D941C1C /* Pods-boilerplate-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate-tvOSTests/Pods-boilerplate-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = boilerplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = boilerplate/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = boilerplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = boilerplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = boilerplate/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MeetConnectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetConnectsTests.m; sourceTree = "<group>"; };
+		0820B0706D79A9C1C35F5F02 /* libPods-MeetConnects-MeetConnectsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetConnects-MeetConnectsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137A4D041F93F58A3D941C1C /* Pods-MeetConnects-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetConnects-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MeetConnects-tvOSTests/Pods-MeetConnects-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MeetConnects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetConnects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MeetConnects/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MeetConnects/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MeetConnects/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MeetConnects/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MeetConnects/main.m; sourceTree = "<group>"; };
 		18604136252C828600FE4E73 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		18604137252C828700FE4E73 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		18604138252C828700FE4E73 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
@@ -84,19 +84,19 @@
 		18604143252C828700FE4E73 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		18604144252C828700FE4E73 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		18604145252C828700FE4E73 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		2B23ACCD7A6241E44F10336B /* Pods-boilerplate-boilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-boilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
-		2C4EB6EC5B9538DAF3582327 /* Pods-boilerplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate-tvOS/Pods-boilerplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* boilerplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "boilerplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* boilerplate-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "boilerplate-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BF255671FFC3A2DBCAC677A /* Pods-boilerplate-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-boilerplate-tvOSTests/Pods-boilerplate-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = boilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9925071F75CC005E32C1DFCC /* libPods-boilerplate-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A411E8167BB53233433161B6 /* Pods-boilerplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-boilerplate-tvOS/Pods-boilerplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		B6E9A33AB5A1F93D75EB7C44 /* Pods-boilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate.release.xcconfig"; path = "Target Support Files/Pods-boilerplate/Pods-boilerplate.release.xcconfig"; sourceTree = "<group>"; };
-		B7D660DE297276E1ACD7EE4F /* libPods-boilerplate-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C895071E4316BD3C4E53C467 /* libPods-boilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA52A67CB451D77441E97F1C /* Pods-boilerplate-boilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-boilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E2525719716AE8492B29C466 /* Pods-boilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate/Pods-boilerplate.debug.xcconfig"; sourceTree = "<group>"; };
+		2B23ACCD7A6241E44F10336B /* Pods-MeetConnects-MeetConnectsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetConnects-MeetConnectsTests.release.xcconfig"; path = "Target Support Files/Pods-MeetConnects-MeetConnectsTests/Pods-MeetConnects-MeetConnectsTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C4EB6EC5B9538DAF3582327 /* Pods-MeetConnects-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetConnects-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MeetConnects-tvOS/Pods-MeetConnects-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* MeetConnects-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeetConnects-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* MeetConnects-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeetConnects-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF255671FFC3A2DBCAC677A /* Pods-MeetConnects-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetConnects-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MeetConnects-tvOSTests/Pods-MeetConnects-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MeetConnects/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9925071F75CC005E32C1DFCC /* libPods-MeetConnects-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetConnects-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A411E8167BB53233433161B6 /* Pods-MeetConnects-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetConnects-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MeetConnects-tvOS/Pods-MeetConnects-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B6E9A33AB5A1F93D75EB7C44 /* Pods-MeetConnects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetConnects.release.xcconfig"; path = "Target Support Files/Pods-MeetConnects/Pods-MeetConnects.release.xcconfig"; sourceTree = "<group>"; };
+		B7D660DE297276E1ACD7EE4F /* libPods-MeetConnects-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetConnects-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C895071E4316BD3C4E53C467 /* libPods-MeetConnects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetConnects.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA52A67CB451D77441E97F1C /* Pods-MeetConnects-MeetConnectsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetConnects-MeetConnectsTests.debug.xcconfig"; path = "Target Support Files/Pods-MeetConnects-MeetConnectsTests/Pods-MeetConnects-MeetConnectsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2525719716AE8492B29C466 /* Pods-MeetConnects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetConnects.debug.xcconfig"; path = "Target Support Files/Pods-MeetConnects/Pods-MeetConnects.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				147BB148C4B5F622DA598B01 /* libPods-boilerplate-boilerplateTests.a in Frameworks */,
+				147BB148C4B5F622DA598B01 /* libPods-MeetConnects-MeetConnectsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1E2C3DF8AC5DEC58BD36F6 /* libPods-boilerplate.a in Frameworks */,
+				CE1E2C3DF8AC5DEC58BD36F6 /* libPods-MeetConnects.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48CBDB426BD26AE3D1F602EA /* libPods-boilerplate-tvOS.a in Frameworks */,
+				48CBDB426BD26AE3D1F602EA /* libPods-MeetConnects-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,20 +130,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D851CB01260AF1FF0890257F /* libPods-boilerplate-tvOSTests.a in Frameworks */,
+				D851CB01260AF1FF0890257F /* libPods-MeetConnects-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* boilerplateTests */ = {
+		00E356EF1AD99517003FC87E /* MeetConnectsTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* boilerplateTests.m */,
+				00E356F21AD99517003FC87E /* MeetConnectsTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = boilerplateTests;
+			path = MeetConnectsTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -154,7 +154,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* boilerplate */ = {
+		13B07FAE1A68108700A75B9A /* MeetConnects */ = {
 			isa = PBXGroup;
 			children = (
 				18604135252C821B00FE4E73 /* Fonts */,
@@ -166,7 +166,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = boilerplate;
+			name = MeetConnects;
 			sourceTree = "<group>";
 		};
 		18604135252C821B00FE4E73 /* Fonts */ = {
@@ -197,10 +197,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				C895071E4316BD3C4E53C467 /* libPods-boilerplate.a */,
-				0820B0706D79A9C1C35F5F02 /* libPods-boilerplate-boilerplateTests.a */,
-				B7D660DE297276E1ACD7EE4F /* libPods-boilerplate-tvOS.a */,
-				9925071F75CC005E32C1DFCC /* libPods-boilerplate-tvOSTests.a */,
+				C895071E4316BD3C4E53C467 /* libPods-MeetConnects.a */,
+				0820B0706D79A9C1C35F5F02 /* libPods-MeetConnects-MeetConnectsTests.a */,
+				B7D660DE297276E1ACD7EE4F /* libPods-MeetConnects-tvOS.a */,
+				9925071F75CC005E32C1DFCC /* libPods-MeetConnects-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -215,9 +215,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* boilerplate */,
+				13B07FAE1A68108700A75B9A /* MeetConnects */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* boilerplateTests */,
+				00E356EF1AD99517003FC87E /* MeetConnectsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C085F27D00EFAA2036F787C4 /* Pods */,
@@ -230,10 +230,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* boilerplate.app */,
-				00E356EE1AD99517003FC87E /* boilerplateTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* boilerplate-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* boilerplate-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* MeetConnects.app */,
+				00E356EE1AD99517003FC87E /* MeetConnectsTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* MeetConnects-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* MeetConnects-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,14 +241,14 @@
 		C085F27D00EFAA2036F787C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E2525719716AE8492B29C466 /* Pods-boilerplate.debug.xcconfig */,
-				B6E9A33AB5A1F93D75EB7C44 /* Pods-boilerplate.release.xcconfig */,
-				DA52A67CB451D77441E97F1C /* Pods-boilerplate-boilerplateTests.debug.xcconfig */,
-				2B23ACCD7A6241E44F10336B /* Pods-boilerplate-boilerplateTests.release.xcconfig */,
-				2C4EB6EC5B9538DAF3582327 /* Pods-boilerplate-tvOS.debug.xcconfig */,
-				A411E8167BB53233433161B6 /* Pods-boilerplate-tvOS.release.xcconfig */,
-				137A4D041F93F58A3D941C1C /* Pods-boilerplate-tvOSTests.debug.xcconfig */,
-				5BF255671FFC3A2DBCAC677A /* Pods-boilerplate-tvOSTests.release.xcconfig */,
+				E2525719716AE8492B29C466 /* Pods-MeetConnects.debug.xcconfig */,
+				B6E9A33AB5A1F93D75EB7C44 /* Pods-MeetConnects.release.xcconfig */,
+				DA52A67CB451D77441E97F1C /* Pods-MeetConnects-MeetConnectsTests.debug.xcconfig */,
+				2B23ACCD7A6241E44F10336B /* Pods-MeetConnects-MeetConnectsTests.release.xcconfig */,
+				2C4EB6EC5B9538DAF3582327 /* Pods-MeetConnects-tvOS.debug.xcconfig */,
+				A411E8167BB53233433161B6 /* Pods-MeetConnects-tvOS.release.xcconfig */,
+				137A4D041F93F58A3D941C1C /* Pods-MeetConnects-tvOSTests.debug.xcconfig */,
+				5BF255671FFC3A2DBCAC677A /* Pods-MeetConnects-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -256,9 +256,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* boilerplateTests */ = {
+		00E356ED1AD99517003FC87E /* MeetConnectsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "boilerplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MeetConnectsTests" */;
 			buildPhases = (
 				3AE437CC348A1AD25A0ED797 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -271,14 +271,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = boilerplateTests;
-			productName = boilerplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* boilerplateTests.xctest */;
+			name = MeetConnectsTests;
+			productName = MeetConnectsTests;
+			productReference = 00E356EE1AD99517003FC87E /* MeetConnectsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* boilerplate */ = {
+		13B07F861A680F5B00A75B9A /* MeetConnects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "boilerplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MeetConnects" */;
 			buildPhases = (
 				BD4935494968032C99890FC2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -292,14 +292,14 @@
 			);
 			dependencies = (
 			);
-			name = boilerplate;
-			productName = boilerplate;
-			productReference = 13B07F961A680F5B00A75B9A /* boilerplate.app */;
+			name = MeetConnects;
+			productName = MeetConnects;
+			productReference = 13B07F961A680F5B00A75B9A /* MeetConnects.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* boilerplate-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* MeetConnects-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "boilerplate-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MeetConnects-tvOS" */;
 			buildPhases = (
 				A81D83B7C64E324F96E399C4 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -312,14 +312,14 @@
 			);
 			dependencies = (
 			);
-			name = "boilerplate-tvOS";
-			productName = "boilerplate-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* boilerplate-tvOS.app */;
+			name = "MeetConnects-tvOS";
+			productName = "MeetConnects-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* MeetConnects-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* boilerplate-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* MeetConnects-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "boilerplate-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MeetConnects-tvOSTests" */;
 			buildPhases = (
 				7BF92C9D0424074FFCEF5167 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -331,9 +331,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "boilerplate-tvOSTests";
-			productName = "boilerplate-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* boilerplate-tvOSTests.xctest */;
+			name = "MeetConnects-tvOSTests";
+			productName = "MeetConnects-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* MeetConnects-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -362,7 +362,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "boilerplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MeetConnects" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -375,10 +375,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* boilerplate */,
-				00E356ED1AD99517003FC87E /* boilerplateTests */,
-				2D02E47A1E0B4A5D006451C7 /* boilerplate-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* boilerplate-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* MeetConnects */,
+				00E356ED1AD99517003FC87E /* MeetConnectsTests */,
+				2D02E47A1E0B4A5D006451C7 /* MeetConnects-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* MeetConnects-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -477,7 +477,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-boilerplate-boilerplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MeetConnects-MeetConnectsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -490,7 +490,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MeetConnects-MeetConnectsTests/Pods-MeetConnects-MeetConnectsTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -499,7 +499,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetConnects-MeetConnectsTests/Pods-MeetConnects-MeetConnectsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7BF92C9D0424074FFCEF5167 /* [CP] Check Pods Manifest.lock */ = {
@@ -517,7 +517,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-boilerplate-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MeetConnects-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -539,7 +539,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-boilerplate-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MeetConnects-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -561,7 +561,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-boilerplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MeetConnects-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -574,7 +574,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MeetConnects/Pods-MeetConnects-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -583,7 +583,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetConnects/Pods-MeetConnects-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -631,7 +631,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* boilerplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MeetConnectsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,7 +657,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* boilerplateTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* MeetConnectsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,12 +666,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* boilerplate */;
+			target = 13B07F861A680F5B00A75B9A /* MeetConnects */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* boilerplate-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* MeetConnects-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -679,14 +679,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA52A67CB451D77441E97F1C /* Pods-boilerplate-boilerplateTests.debug.xcconfig */;
+			baseConfigurationReference = DA52A67CB451D77441E97F1C /* Pods-MeetConnects-MeetConnectsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = boilerplateTests/Info.plist;
+				INFOPLIST_FILE = MeetConnectsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -696,17 +696,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate.app/boilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetConnects.app/MeetConnects";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B23ACCD7A6241E44F10336B /* Pods-boilerplate-boilerplateTests.release.xcconfig */;
+			baseConfigurationReference = 2B23ACCD7A6241E44F10336B /* Pods-MeetConnects-MeetConnectsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = boilerplateTests/Info.plist;
+				INFOPLIST_FILE = MeetConnectsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -716,19 +716,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate.app/boilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetConnects.app/MeetConnects";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2525719716AE8492B29C466 /* Pods-boilerplate.debug.xcconfig */;
+			baseConfigurationReference = E2525719716AE8492B29C466 /* Pods-MeetConnects.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = boilerplate/Info.plist;
+				INFOPLIST_FILE = MeetConnects/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -736,7 +736,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = boilerplate;
+				PRODUCT_NAME = MeetConnects;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -745,12 +745,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6E9A33AB5A1F93D75EB7C44 /* Pods-boilerplate.release.xcconfig */;
+			baseConfigurationReference = B6E9A33AB5A1F93D75EB7C44 /* Pods-MeetConnects.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = boilerplate/Info.plist;
+				INFOPLIST_FILE = MeetConnects/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -758,7 +758,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = boilerplate;
+				PRODUCT_NAME = MeetConnects;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -766,7 +766,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C4EB6EC5B9538DAF3582327 /* Pods-boilerplate-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 2C4EB6EC5B9538DAF3582327 /* Pods-MeetConnects-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -777,14 +777,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "boilerplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "MeetConnects-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.boilerplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MeetConnects-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -794,7 +794,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A411E8167BB53233433161B6 /* Pods-boilerplate-tvOS.release.xcconfig */;
+			baseConfigurationReference = A411E8167BB53233433161B6 /* Pods-MeetConnects-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -805,14 +805,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "boilerplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "MeetConnects-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.boilerplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MeetConnects-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -822,7 +822,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 137A4D041F93F58A3D941C1C /* Pods-boilerplate-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 137A4D041F93F58A3D941C1C /* Pods-MeetConnects-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -832,24 +832,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "boilerplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MeetConnects-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.boilerplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MeetConnects-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate-tvOS.app/boilerplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetConnects-tvOS.app/MeetConnects-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BF255671FFC3A2DBCAC677A /* Pods-boilerplate-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 5BF255671FFC3A2DBCAC677A /* Pods-MeetConnects-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -859,17 +859,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "boilerplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MeetConnects-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.boilerplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MeetConnects-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate-tvOS.app/boilerplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetConnects-tvOS.app/MeetConnects-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -990,7 +990,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "boilerplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MeetConnectsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -999,7 +999,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "boilerplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MeetConnects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1008,7 +1008,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "boilerplate-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MeetConnects-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1017,7 +1017,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "boilerplate-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MeetConnects-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1026,7 +1026,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "boilerplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MeetConnects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
