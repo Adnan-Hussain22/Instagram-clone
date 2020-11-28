@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'instaclone' do
+target 'boilerplate' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'instacloneTests' do
+  target 'boilerplateTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'instaclone' do
   end
 end
 
-target 'instaclone-tvOS' do
-  # Pods for instaclone-tvOS
+target 'boilerplate-tvOS' do
+  # Pods for boilerplate-tvOS
 
-  target 'instaclone-tvOSTests' do
+  target 'boilerplate-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
