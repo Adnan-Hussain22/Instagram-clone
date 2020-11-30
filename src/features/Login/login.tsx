@@ -19,7 +19,7 @@ import {
 } from 'src/utils/scale';
 
 import styles from './styles';
-import {palette} from 'src/constants/color';
+import {palette} from 'src/constants/colors';
 
 interface LoginScreenProps {}
 

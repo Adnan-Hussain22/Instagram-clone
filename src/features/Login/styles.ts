@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {palette} from 'src/constants/color';
+import {palette} from 'src/constants/colors';
 
 import {height, width, moderateScale, scale} from 'src/utils/scale';
 
