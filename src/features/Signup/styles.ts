@@ -14,7 +14,6 @@ export default StyleSheet.create({
     height,
     width,
     backgroundColor: palette.white,
-    // borderTopLeftRadius: 90,
     paddingTop: 25,
     alignItems: 'center',
   },
@@ -36,12 +35,14 @@ export default StyleSheet.create({
     paddingHorizontal: 25,
     flexDirection: 'row',
     alignItems: 'center',
+    // borderWidth: 1,
+    // borderColor: palette.purpleDark,
     backgroundColor: palette.white,
     shadowOffset: {width: 0, height: 2},
     shadowColor: palette.black,
     shadowOpacity: 0.8,
     shadowRadius: 20,
-    elevation: 3,
+    elevation: 2,
   },
   fieldIconWrapper: {
     marginRight: 10,
@@ -62,6 +63,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     width: 180,
     maxHeight: 50,
+    elevation: 15
   },
   buttonText: {color: 'white', fontWeight: 'bold', letterSpacing: 1},
   bottomAnchor: {

@@ -1,26 +1,21 @@
 import * as React from 'react';
-import {Image, TextInput, TouchableOpacity, ScrollView} from 'react-native';
+import {TextInput, TouchableOpacity, ScrollView} from 'react-native';
 
 import {Box, Text} from 'src/components/Restyle';
-import {Images} from 'src/assets/images';
 import Icon from 'src/components/Icons';
-import {width, scale} from 'src/utils/scale';
 
 import styles from './styles';
-import {palette} from 'src/constants/color';
 
-interface LoginScreenProps {}
+interface SignupScreenProps {}
 
-const SignupScreen = ({}: LoginScreenProps) => {
+const SignupScreen = ({}: SignupScreenProps) => {
   return (
     <Box flex={1}>
-      {/* <Image
-        source={Images.Logo}
-        style={{height: 180, width, position: 'absolute', zIndex: -1, top: 0}}
-        resizeMode="cover"
-      /> */}
       <Box flex={1}>
-        <ScrollView contentContainerStyle={styles.container}>
+        <ScrollView
+          contentContainerStyle={styles.container}
+          showsVerticalScrollIndicator={false}
+        >
           {/* 0.1 */}
           <Box style={styles.header}>
             <Text variant="headerBig">Let's Get Started!</Text>
